@@ -1072,10 +1072,13 @@
              zoom: 16,
              center:[39.458699,-0.337969],
              mapTypeId : google.maps.MapTypeId.ROADMAP,
-             scrollwheel: false
+             scrollwheel: false,
+             styles: [
+               {elementType: 'labels.icon', stylers: [{visibility: 'off'}]},
+             ]
            })
            .marker([
-            {position:[-37.817274,144.955709]},
+            {position:[39.458699,-0.337969]},
             {icon: "http://maps.google.com/mapfiles/marker_grey.png"}
           ])
        });
