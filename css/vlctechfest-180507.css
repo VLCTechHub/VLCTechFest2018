@@ -35,3 +35,22 @@
 .footer a:hover .action-box .action-box-icon i {
   background-color: rgba(255, 170, 0, 0.8);
 }
+
+.schedule-slot-info-content{
+  margin-left: 0;
+}
+
+.schedule-slot-info-content:not(:first-child) {
+  padding-top: 25px;
+  border-top: 1px solid #ccc;
+}
+
+.sponsor-details img {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .banner-content .banner-desc span{
+    border-left: 0px;
+  }
+}
