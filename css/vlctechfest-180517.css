@@ -49,6 +49,16 @@
   margin: 0 auto;
 }
 
+.faq .panel-default>.panel-heading,
+.faq .panel-default>.panel-heading>.panel-title {
+  padding: 0px;
+}
+
+.faq .panel-default>.panel-heading>.panel-title>a {
+  display: block;
+  padding: 14px 20px;
+}
+
 @media (max-width: 768px) {
   .banner-content .banner-desc span{
     border-left: 0px;
