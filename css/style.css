@@ -1753,14 +1753,10 @@ ul.navbar-nav > li.header-ticket:hover > a:after{
 }
 
 .schedule-slot-title{
-   margin: 0 0 3px 0;
-   font-size: 20px;
 }
 
 .schedule-slot-speaker-name{
    color: #FA0;
-   margin-top: 5px;
-   font-size: 16px;
 }
 
 .listing-last{
