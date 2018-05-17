@@ -1,3 +1,7 @@
+body {
+  color: #333;
+}
+
 .logo img {
   max-width: 200px
 }
@@ -43,6 +47,41 @@
 .schedule-slot-info-content:not(:first-child) {
   padding-top: 25px;
   border-top: 1px solid #ccc;
+}
+
+.schedule-slot-title  summary {
+  color: #303030;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.schedule-slot-speaker-name  summary {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+summary {
+  outline: none;
+}
+
+summary:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.schedule-slot-speaker-name p,
+.schedule-slot-speaker-name a,
+.schedule-slot-title p,
+.schedule-slot-title a
+{
+  color: #333;
+}
+
+
+.schedule-slot-speaker-name a:hover {
+  color: #fa0;
 }
 
 .sponsor-details img {
