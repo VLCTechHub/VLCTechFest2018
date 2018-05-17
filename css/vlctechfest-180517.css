@@ -72,12 +72,12 @@ summary:hover {
 .schedule-slot-title p,
 .schedule-slot-title a
 {
-  color: #7c7c7c;
+  color: #333;
 }
 
 
 .schedule-slot-speaker-name a:hover {
-  color: #111;
+  color: #fa0;
 }
 
 .sponsor-details img {
