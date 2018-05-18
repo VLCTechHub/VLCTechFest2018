@@ -1,3 +1,7 @@
+body {
+  color: #333;
+}
+
 .logo img {
   max-width: 200px
 }
@@ -53,6 +57,7 @@
 }
 
 .schedule-slot-speaker-name  summary {
+  font-size: 16px;
   font-weight: bold;
   margin: 10px 0;
 }
@@ -71,16 +76,26 @@ summary:hover {
 .schedule-slot-title p,
 .schedule-slot-title a
 {
-  color: #7c7c7c;
+  color: #333;
 }
 
 
 .schedule-slot-speaker-name a:hover {
-  color: #111;
+  color: #fa0;
 }
 
 .sponsor-details img {
   margin: 0 auto;
+}
+
+.faq .panel-default>.panel-heading,
+.faq .panel-default>.panel-heading>.panel-title {
+  padding: 0px;
+}
+
+.faq .panel-default>.panel-heading>.panel-title>a {
+  display: block;
+  padding: 14px 20px;
 }
 
 @media (max-width: 768px) {
